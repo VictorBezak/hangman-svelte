@@ -9,7 +9,7 @@
   let guessesRemaining = 9;
 
   function resetGame() {
-    guessesRemaining = 9;
+    location.reload();
   }
 </script>
 

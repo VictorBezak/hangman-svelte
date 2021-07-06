@@ -1,6 +1,4 @@
 <script>
-import LetterBank from "./LetterBank.svelte";
-
 	export let answer = "";
 	let answerRows = 0;
 	let charsOnRow = 0;
@@ -16,8 +14,6 @@ import LetterBank from "./LetterBank.svelte";
 			charsOnRow += 1;
 		}
 	})
-
-	console.log(charsPerRow);
 </script>
 
 <section id="answer-spaces" class="grid">

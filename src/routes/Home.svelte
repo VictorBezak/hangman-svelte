@@ -4,8 +4,6 @@
   import OpenAi from '../lib/OpenAi.svelte';
   let customInput;
   let answer;
-
-  $: console.log(answer)
 </script>
 
 {#if answer}
